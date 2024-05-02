@@ -1,0 +1,78 @@
+.aut {
+    display: flex;
+    flex-direction: column;
+    padding:10%;
+    gap: 40px;
+    align-items: center;
+    background-color:  #803e6c;
+    border-radius: 12px;
+    width: 60%;
+    margin: 10%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.inputs {
+    display: flex;
+    gap: 20px;
+    width: 40%;
+    flex-flow: column nowrap;
+  
+    
+    margin-bottom: 10%;
+  }
+  
+  
+  .inputs>input {
+    font-weight: 500;
+    font-size: 1em;
+  
+    padding: 5% 5% 5% 5%;
+  
+    color: #262020;  /*не работает */
+    font-weight: 600;
+  
+    background: none;
+    border-radius: 38px;
+    border: 2px solid #a0bad4;
+  
+    cursor: pointer;
+  }
+  
+  .inputs>button {
+    font-size: 1em;
+  
+    padding: 5% 4% 5% 4%;
+  
+    color: #93d4e2;
+    font-weight: 600;
+  
+    background: none;
+    border-radius: 38px;
+    border: 2px solid #bb4597;
+  
+    cursor: pointer;
+  }
+  
+  .inputs>button:hover {
+    font-size: 1em;
+  
+    padding: 5% 4% 5% 4%;
+  
+    color: #fdfafa;
+    font-weight: 600;
+  
+    background: #747f82;
+    border-radius: 38px;
+    border: 2px solid #355258;
+  
+    cursor: pointer;
+  }
+
+  .aut>p {
+    font-size: 15px;
+  }

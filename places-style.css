@@ -1,0 +1,274 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  color: #f1f2f6;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  letter-spacing: 3px;
+
+  font-weight: 700;
+  font-size: min(25px, 5vw);
+}
+
+.main-container {
+  background-image: url(img/moscow.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 9%;
+  color: white;
+}
+body {
+  background-color: rgb(87, 60, 65);
+}
+
+.section-about > p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: min(15px, 5vw);
+  font-weight: 400;
+
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+
+button {
+  font-size: 1em;
+
+  padding: 1.5% 4% 1.5% 4%;
+
+  color: #3cdcff;
+  border: 2px solid #3cdcff;
+  border-radius: 38px;
+
+  font-weight: 600;
+
+  background: none;
+
+  cursor: pointer;
+}
+
+/* при наведении результат */
+button:hover {
+  font-size: 1em;
+
+  padding: 1.5% 4% 1.5% 4%;
+
+  color: #000000;
+  font-weight: 600;
+
+  background: #3cdcff;
+  border-radius: 38px;
+  border: 2px solid #3cdcff;
+
+  cursor: pointer;
+}
+
+A {
+  text-decoration: none;
+  color: white;
+}
+
+.container-navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: auto;
+
+  width: 90%;
+  padding-top: 5%;
+  color: #f1f2f6;
+
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+  color: #f1f2f6;
+}
+
+.section-about {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-bottom: 10%;
+}
+
+.second-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+
+  padding: 7% 5% 7% 5%;
+}
+
+/* 2 блок */
+.first-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.second-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  gap: 5%;
+  padding: 7% 5% 7% 5%;
+  height: 500px;
+}
+
+.second-img {
+  background: url(img/redsquare.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  width: 50%;
+  height: 100%;
+
+  color: white;
+  position: relative;
+  border-radius: 16px;
+}
+
+.inform {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50%;
+}
+
+/* 3 блок ГУМ */
+
+.third-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+
+  justify-content: space-around;
+  gap: 5%;
+  padding: 7% 5% 7% 5%;
+  height: 500px;
+}
+
+.third-img {
+  background: url(img/gum.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  width: 50%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+/* .third-inform {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%; 
+  } */
+
+/* 4 блок */
+
+.four-container {
+  display: flex;
+  flex-wrap: nowrap;
+
+  justify-content: space-around;
+  gap: 5%;
+  padding: 7% 5% 7% 5%;
+  height: 500px;
+}
+.four-img {
+  background: url(img/gallery.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  width: 50%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.five-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+
+  justify-content: space-around;
+  gap: 5%;
+  padding: 7% 5% 7% 5%;
+  height: 500px;
+}
+.five-img {
+  background: url(img/library.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  width: 50%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.foother-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  padding-bottom: 5%;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons :nth-child(1) {
+  background-image: url(img/vk.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 70px;
+  height: 50px;
+}
+
+.icons :nth-child(2) {
+  background-image: url(img/inst.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 70px;
+  height: 50px;
+}
+
+.icons :nth-child(3) {
+  background-image: url(img/tg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 70px;
+  height: 50px;
+}
